@@ -83,14 +83,11 @@ for sheet_name in sheet_names:
         counterParticipant += 1
         results.append({'SID': counterParticipant , 'Group': sheet_name,'Scenario': 'GitHub', 'Precision Score': precision_score_gh, 
                         'Recall Score': recall_score_gh, 'GitHub Familarity': row[23],'K8 Familarity': row[24], 'Understanding': row[22]})
-        print('k8 start ================================================================')
         recall_score_k8, precision_score_k8 = calculate_row_recall_precision(row[11:], k8_ground_truth_table)
         counterParticipant += 1
         results.append({'SID': counterParticipant, 'Group': sheet_name,  'Scenario': 'K8', 'Precision Score': precision_score_k8,
                          'Recall Score': recall_score_k8, 'GitHub Familarity': row[23],'K8 Familarity': row[24], 'Understanding': row[22]})
-        print('k8 end ================================================================')
 
 results_df = pd.DataFrame(results)
 output_csv_path = 'metrics_table.csv'
 results_df.to_csv(output_csv_path, index=False)          
-print(results)
