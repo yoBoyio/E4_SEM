@@ -1,43 +1,43 @@
 SID,Group,Scenario,Precision Score,Recall Score,GitHub Familarity,K8 Familarity,Understanding
-1,A,GitHub,0.4,0.4,Neutral,Strongly disagree,Neutral
-1,A,K8,0.6,0.6,Neutral,Strongly disagree,Neutral
-2,A,GitHub,0.4,0.4,Strongly agree,Agree,Strongly agree
-2,A,K8,0.7,0.7,Strongly agree,Agree,Strongly agree
-3,A,GitHub,0.4,0.4,Agree,Agree,Neutral
-3,A,K8,0.7,0.7,Agree,Agree,Neutral
-4,A,GitHub,0.4,0.4,Agree,Agree,Agree
-4,A,K8,0.6,0.6,Agree,Agree,Agree
-5,A,GitHub,0.4,0.4,Agree,Neutral,Strongly agree
-5,A,K8,0.7,0.7,Agree,Neutral,Strongly agree
-1,B,GitHub,0.4,0.4,Agree,Agree,Disagree
-1,B,K8,0.7,0.7,Agree,Agree,Disagree
-2,B,GitHub,0.4,0.4,Agree,Neutral,Agree
-2,B,K8,0.7,0.7,Agree,Neutral,Agree
-3,B,GitHub,0.4,0.4,Agree,Neutral,Strongly agree
-3,B,K8,0.6,0.6,Agree,Neutral,Strongly agree
-4,B,GitHub,0.4,0.4,Strongly agree,Strongly agree,Strongly agree
-4,B,K8,0.6,0.6,Strongly agree,Strongly agree,Strongly agree
-5,B,GitHub,0.4,0.4,Strongly agree,Disagree,Agree
-5,B,K8,0.6,0.6,Strongly agree,Disagree,Agree
-6,B,GitHub,0.4,0.4,Strongly agree,Strongly disagree,Agree
-6,B,K8,0.5,0.5,Strongly agree,Strongly disagree,Agree
-1,C,GitHub,0.4,0.4,Strongly agree,Agree,Strongly agree
-1,C,K8,0.7,0.7,Strongly agree,Agree,Strongly agree
-2,C,GitHub,0.4,0.4,Agree,Agree,Agree
-2,C,K8,0.7,0.7,Agree,Agree,Agree
-3,C,GitHub,0.4,0.4,Agree,Disagree,Agree
-3,C,K8,0.7,0.7,Agree,Disagree,Agree
-4,C,GitHub,0.4,0.4,Neutral,Neutral,Agree
-4,C,K8,0.7,0.7,Neutral,Neutral,Agree
-1,D,GitHub,0.4,0.4,Neutral,Agree,Neutral
-1,D,K8,0.6,0.6,Neutral,Agree,Neutral
-2,D,GitHub,0.4,0.4,Agree,Disagree,Agree
-2,D,K8,0.6,0.6,Agree,Disagree,Agree
-3,D,GitHub,0.4,0.4,Agree,Disagree,Strongly agree
-3,D,K8,0.6,0.6,Agree,Disagree,Strongly agree
-4,D,GitHub,0.4,0.4,Agree,Neutral,Agree
-4,D,K8,0.7,0.7,Agree,Neutral,Agree
-5,D,GitHub,0.4,0.4,Strongly agree,Neutral,Agree
-5,D,K8,0.7,0.7,Strongly agree,Neutral,Agree
-6,D,GitHub,0.4,0.4,Strongly disagree,Strongly disagree,Agree
-6,D,K8,0.7,0.7,Strongly disagree,Strongly disagree,Agree
+1,A,GitHub,0.3333333333333333,0.125,Neutral,Strongly disagree,Neutral
+2,A,K8,0.3333333333333333,0.125,Neutral,Strongly disagree,Neutral
+3,A,GitHub,0.0,0.0,Strongly agree,Agree,Strongly agree
+4,A,K8,1.0,0.1,Strongly agree,Agree,Strongly agree
+5,A,GitHub,0.0,0.0,Agree,Agree,Neutral
+6,A,K8,0.0,0.0,Agree,Agree,Neutral
+7,A,GitHub,0.4,0.2857142857142857,Agree,Agree,Agree
+8,A,K8,0.6666666666666666,0.2222222222222222,Agree,Agree,Agree
+9,A,GitHub,0.4,0.2857142857142857,Agree,Neutral,Strongly agree
+10,A,K8,0.5,0.1111111111111111,Agree,Neutral,Strongly agree
+11,B,GitHub,0.4444444444444444,0.8,Agree,Agree,Disagree
+12,B,K8,1.0,0.3,Agree,Agree,Disagree
+13,B,GitHub,0.6,0.375,Agree,Neutral,Agree
+14,B,K8,0.3333333333333333,0.125,Agree,Neutral,Agree
+15,B,GitHub,0.4,0.2857142857142857,Agree,Neutral,Strongly agree
+16,B,K8,0.5714285714285714,0.5714285714285714,Agree,Neutral,Strongly agree
+17,B,GitHub,0.5714285714285714,0.5714285714285714,Strongly agree,Strongly agree,Strongly agree
+18,B,K8,0.7142857142857143,0.625,Strongly agree,Strongly agree,Strongly agree
+19,B,GitHub,0.75,0.3333333333333333,Strongly agree,Disagree,Agree
+20,B,K8,0.6,0.375,Strongly agree,Disagree,Agree
+21,B,GitHub,0.6,0.375,Strongly agree,Strongly disagree,Agree
+22,B,K8,0.3333333333333333,0.3333333333333333,Strongly agree,Strongly disagree,Agree
+23,C,GitHub,0.6,0.375,Strongly agree,Agree,Strongly agree
+24,C,K8,0.75,0.3333333333333333,Strongly agree,Agree,Strongly agree
+25,C,GitHub,0.5,0.1111111111111111,Agree,Agree,Agree
+26,C,K8,0.0,0.0,Agree,Agree,Agree
+27,C,GitHub,0.6,0.375,Agree,Disagree,Agree
+28,C,K8,1.0,0.3,Agree,Disagree,Agree
+29,C,GitHub,0.6666666666666666,0.2222222222222222,Neutral,Neutral,Agree
+30,C,K8,1.0,0.1,Neutral,Neutral,Agree
+31,D,GitHub,0.6,0.375,Neutral,Agree,Neutral
+32,D,K8,0.5,0.42857142857142855,Neutral,Agree,Neutral
+33,D,GitHub,0.5,0.25,Agree,Disagree,Agree
+34,D,K8,0.6,0.375,Agree,Disagree,Agree
+35,D,GitHub,0.6666666666666666,0.5,Agree,Disagree,Strongly agree
+36,D,K8,0.6,0.375,Agree,Disagree,Strongly agree
+37,D,GitHub,0.6,0.375,Agree,Neutral,Agree
+38,D,K8,1.0,0.5,Agree,Neutral,Agree
+39,D,GitHub,0.4,0.2857142857142857,Strongly agree,Neutral,Agree
+40,D,K8,1.0,0.4,Strongly agree,Neutral,Agree
+41,D,GitHub,0.8,0.4444444444444444,Strongly disagree,Strongly disagree,Agree
+42,D,K8,1.0,0.5,Strongly disagree,Strongly disagree,Agree
